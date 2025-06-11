@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>우리 학교 건물 소개</title>
+  <link rel="stylesheet" href="360기숙사.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>우리 학교 건물 소개</h1>
+
+    <!-- 유튜브 영상 -->
+    <div class="video-wrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/영상ID" 
+              title="학교 건물 소개 영상" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- 댓글 섹션 -->
+    <div class="comment-section">
+      <h2>댓글</h2>
+      <form id="comment-form">
+        <input type="text" id="username" placeholder="이름" required />
+        <textarea id="comment" placeholder="댓글을 작성하세요" required></textarea>
+        <button type="submit">댓글 달기</button>
+      </form>
+      <ul id="comment-list"></ul>
+    </div>
+  </div>
+
+  <script src="360기숙사.js"></script>
+</body>
+</html>
